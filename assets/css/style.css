@@ -56,7 +56,6 @@ nav {
     color: var(--disc-bg-light);
     text-decoration: none;
     padding: 1rem;
-
 }
 
 .login {
@@ -66,7 +65,7 @@ nav {
 }
 
 .login_button{
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 0.8rem;
     border-radius: 40px;
     border: none;
 }
