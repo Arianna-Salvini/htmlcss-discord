@@ -1,19 +1,11 @@
 /* Common */
 :root {
-    --disc-nav-bg: #add8e6;
-    --disc-nav: #daa520;
-    --disc-primary-dark: #00008b;
-    --disc-secondary-dark: #ee82ee;
-    --discc-primary-light: #1e90ff;
-    --discc-secondary-light: #ffc0cb;
-    --disc-bg-dark: #d3d3d3;
+    --disc-primary: #3161e0;
+    --disc-secondary: #687dc4;
+    --disc-bg-dark: #f6f6f6;
     --disc-bg-light: #ffffff;
-    --disc-extra-color: #228b22;
     --disc-bg-footer: #23272a;
-    --disc-footer-primary-dark: #20b2aa;
-    --disc-footer-primary-light: #7fffd4;
-    --disc-footer-secondary-dark: #f08080;
-    --disc-footer-secondary-light: #f3adb8;
+    --disc-colored-text: #687dc4;
 }
 
 * {
@@ -35,43 +27,48 @@
 /* Nav */
 nav {
     height: 84px;
-    background-color: var(--disc-nav-bg);
+    background-color: var(--disc-primary);
     display: flex;
     align-content: center;
     flex-wrap: wrap;
+    color: var(--disc-bg-light);
 }
 
 .nav_flex_container {
-    height: 47px;
-    background-color: var(--disc-nav);
     display: flex;
     justify-content: center;
 }
 
 .nav_link_section {
-    display: flex;
-    justify-content: center;
-    border: 2px black dotted;
     text-align: center;
     width: 60%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .logo {
     text-align: left;
-    border: 2px black dotted;
     width: 20%;
+    align-self: center;
+}
+
+.link{
+    color: var(--disc-bg-light);
+    text-decoration: none;
+    padding: 1rem;
+
 }
 
 .login {
     text-align: right;
-    border: 2px black dotted;
     width: 20%;
+    align-self: center;
 }
 
-.link,
-.login,
-.logo {
-    padding: 0.6rem 0.25rem;
+.login_button{
+    padding: 0.25rem 0.5rem;
+    border-radius: 40px;
+    border: none;
 }
 
 /* /Nav */
