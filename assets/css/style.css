@@ -11,6 +11,12 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 1900px;
+}
+
+body{
+    margin:auto;
+    font-family: sans-serif;
 }
 
 /* Utiliy */
@@ -20,11 +26,11 @@
     margin: auto;
 }
 
-.border{
+.border {
     border: 2px dotted var(--disc-bg-footer);
 }
 
-/* Nav */
+/*  #region Nav */
 nav {
     height: 84px;
     background-color: var(--disc-primary);
@@ -52,7 +58,7 @@ nav {
     align-self: center;
 }
 
-.link{
+.link {
     color: var(--disc-bg-light);
     text-decoration: none;
     padding: 1rem;
@@ -64,27 +70,51 @@ nav {
     align-self: center;
 }
 
-.login_button{
+.login_button {
     padding: 0.5rem 0.8rem;
     border-radius: 40px;
     border: none;
 }
 
-/* /Nav */
+/* #endregion/Nav */
 /* Hero */
 
 .hero {
-    height: 500px;
-    background-color: var(--disc-primary-dark);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 30rem;
+    background-color: var(--disc-primary);
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero_text {
+    margin: 2rem;
+    font-size: 1.3rem;
+}
+
+.hero_title {
+    font-size: 3.3rem;
 }
 
 .cta_hero_text {
-    height: 80%;
-    width: 45%;
-    background-color: var(--disc-secondary-dark);
+    width: 50%;
+    color: var(--disc-bg-light);
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.btn_hero{
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    border-radius: 40px;
+    border: 1px solid var(--disc-primary);
+}
+
+.open_in_browser{
+    background-color: var(--disc-bg-footer);
+    color: var(--disc-bg-light);
 }
 
 /* /Hero */
@@ -159,18 +189,19 @@ nav {
     flex-wrap: wrap;
 }
 
-.social_links{
+.social_links {
     height: 580px;
     flex-grow: 1.5;
     background-color: var(--disc-footer-secondary-dark);
 }
 
-.footer_links{
+.footer_links {
     flex-grow: 1;
     height: 580px;
     background-color: var(--disc-footer-primary-dark);
     border: 2px dotted var(--disc-bg-light);
 }
+
 /* /Footer Top */
 /* Footer Bottom */
 .footer_bottom {
@@ -179,7 +210,7 @@ nav {
     align-items: flex-end;
 }
 
-.footer_box{
+.footer_box {
     height: 80px;
     width: 100%;
     background-color: var(--disc-footer-primary-light);
@@ -188,10 +219,11 @@ nav {
     align-items: center;
 }
 
-.space{
+.space {
     font-size: 20px;
     background-color: var(--disc-footer-secondary-light);
     padding: 5px;
 }
+
 /* /Footer Bottom */
 /* /Footer */
