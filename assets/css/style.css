@@ -110,6 +110,7 @@ nav {
     margin: 0 1rem;
     border-radius: 40px;
     border: 1px solid var(--disc-primary);
+    font-size: 1.2rem;
 }
 
 .open_in_browser{
