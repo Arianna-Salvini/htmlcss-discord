@@ -1,7 +1,7 @@
-/* Common */
+/* #region Common */
 :root {
     --disc-primary: #3161e0;
-    --disc-secondary: #687dc4;
+    --disc-secondary: #8ea1e1;
     --disc-bg-dark: #f6f6f6;
     --disc-bg-light: #ffffff;
     --disc-bg-footer: #23272a;
@@ -19,11 +19,12 @@ body{
     margin:auto;
     font-family: sans-serif;
 }
+/* #endregion Common */
 
-/* Utiliy */
+/* #region Utiliy */
 
 .container {
-    width: 80vw;
+    width: 65vw;
     margin: auto;
 }
 
@@ -43,6 +44,7 @@ body{
     color: var(--disc-bg-light);
     transform: rotateY('180deg');
 }
+/* #endregion Utiliy */
 
 /*  #region Nav */
 nav {
@@ -91,8 +93,9 @@ nav {
 }
 
 /* #endregion/Nav */
-/* #region Hero */
 
+/* #region Main */
+/* #region Hero */
 .hero {
     height: 30rem;
     background-color: var(--disc-primary);
@@ -133,9 +136,7 @@ nav {
 }
 
 /* #endregion /Hero */
-
-/* Main */
-
+/* #region Main with img and description */
 .main_section {
     display: flex;
     align-content: center;
@@ -179,22 +180,50 @@ nav {
 .items {
     width: 100%;
 }
-
-/* Last Main Saection */
+/* #endregion Main with img and description */
+/* #region Last Main Saection */
 .start_section {
-    height: 1000px;   
+    text-align: center;
 }
 
 .start_box {
-    width: 60%;
-    height: 800px;
+    width: 56%;
     background-color: var(--disc-extra-color);
 }
 
-/* /Last Main Saection */
+.img_video_box{
+    width: 100%;
+}
+.text_last_paragraph{
+    margin: 1.5rem 5.5 rem;
+}
 
-/* Footer */
-/* Footer Top */
+h3{
+    padding: 3rem 10rem;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn_download_for-mac{
+    color: var(--disc-bg-light);
+    background-color: var(--disc-secondary);
+    padding: 1rem 2rem;
+    margin: 0 1rem 10rem;
+    border-radius: 45px;
+    border: 1px solid var(--disc-secondary);
+    font-size: 1.2rem;
+}
+
+.entity_arrow_down{
+    padding: 1rem;
+    text-align: center;
+}
+/* #endregion /Last Main Saection */
+/* #endregion Main */
+
+/* #region Footer */
+/* #region Footer Top */
 .footer_container {
     background-color: var(--disc-bg-footer);
     border-bottom: 2px solid var(--disc-bg-light);
@@ -221,8 +250,8 @@ nav {
     border: 2px dotted var(--disc-bg-light);
 }
 
-/* /Footer Top */
-/* Footer Bottom */
+/* #endregion /Footer Top */
+/* #region Footer Bottom */
 .footer_bottom {
     height: 110px;
     display: flex;
@@ -244,5 +273,5 @@ nav {
     padding: 5px;
 }
 
-/* /Footer Bottom */
-/* /Footer */
+/* #endregion /Footer Bottom */
+/* #endregion /Footer */
