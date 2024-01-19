@@ -198,7 +198,8 @@ nav {
     margin: 1.5rem 5.5 rem;
 }
 
-h3{
+.h3_main{
+    font-size: 2rem;
     padding: 3rem 10rem;
     background-image: url(../img/stars.svg);
     background-size: contain;
@@ -250,6 +251,39 @@ h3{
     border: 2px dotted var(--disc-bg-light);
 }
 
+ select{
+    background-color: var(--disc-bg-footer);
+    color: var(--disc-bg-light);
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    vertical-align: middle;
+ }
+
+ option{
+    color: var(--disc-bg-light);
+    vertical-align: middle;
+ }
+label{
+ padding: 2rem;
+}
+ #italian{
+    vertical-align: middle;
+ }
+
+ .h3_footer{
+    color: var(--disc-colored-text);
+    font-size: 2rem;
+    padding: 2rem;
+ }
+
+ .social_logos_section{
+    padding:2rem;
+ }
+
+ .social_logo{
+    margin-right: 0.3rem;
+ }
 /* #endregion /Footer Top */
 /* #region Footer Bottom */
 .footer_bottom {
