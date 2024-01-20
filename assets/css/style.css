@@ -232,7 +232,7 @@ nav {
 /* #region Footer Top */
 .footer_container {
     background-color: var(--disc-bg-footer);
-    border-bottom: 2px solid var(--disc-bg-light);
+
     display: flex;
 }
 
@@ -314,24 +314,27 @@ a{
 /* #endregion /Footer Top */
 /* #region Footer Bottom */
 .footer_bottom {
-    height: 110px;
     display: flex;
     align-items: flex-end;
 }
 
 .footer_box {
-    height: 80px;
     width: 100%;
     background-color: var(--disc-footer-primary-light);
+    border-top: 2px solid var(--disc-bg-light);
+    padding: 2rem 0 5rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.space {
-    font-size: 20px;
-    background-color: var(--disc-footer-secondary-light);
-    padding: 5px;
+.btn_login_footer{
+    color: var(--disc-bg-light);
+    background-color: var(--disc-secondary);
+    padding: 0.4rem 1rem;
+    border-radius: 45px;
+    border: 1px solid var(--disc-secondary);
+    font-size: 0.9rem;
+
 }
 
 /* #endregion /Footer Bottom */
