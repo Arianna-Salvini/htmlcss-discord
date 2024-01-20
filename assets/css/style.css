@@ -232,7 +232,6 @@ nav {
 /* #region Footer Top */
 .footer_container {
     background-color: var(--disc-bg-footer);
-
     display: flex;
 }
 
@@ -246,11 +245,17 @@ nav {
 .social_links {
     width: 30%;
     background-color: var(--disc-footer-secondary-dark);
-}
+    padding-right: 2rem;
+    }
 
 .footer_links {
     flex-grow: 1;
     background-color: var(--disc-footer-primary-dark);
+}
+
+.social_logo{
+    width: 2.5rem;
+    align-self:flex-start;
 }
 
 select {
@@ -268,11 +273,12 @@ option {
 }
 
 label {
-    padding: 2rem;
+    padding: 2rem 0.5rem 2rem 2rem;
 }
 
 #italian {
     vertical-align: middle;
+    width: 3rem;
 }
 
 .h3_footer {
@@ -282,7 +288,11 @@ label {
 }
 
 .social_logos_section {
-    padding: 2rem;
+    padding: 1rem 3rem 1rem 2rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .social_logo {
@@ -311,6 +321,7 @@ a{
     display:flex;
     flex-direction: column;
 }
+
 /* #endregion /Footer Top */
 /* #region Footer Bottom */
 .footer_bottom {
