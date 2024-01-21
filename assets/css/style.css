@@ -43,7 +43,7 @@ body {
     width: 100vw;
     background-color: var(--disc-bg-dark);
     color: var(--disc-bg-light);
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
 }
 
 /* #endregion Utiliy */
